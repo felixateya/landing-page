@@ -160,7 +160,7 @@ ul {
   height: 80vh;
   /* background-color: #fff; */
   background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url(/info.jpg);
+    url(./info.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -239,7 +239,7 @@ ul {
   height: 60vh;
   /* background-color: #fff; */
   background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url(/action.jpeg);
+    url(./action.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
