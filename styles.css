@@ -114,7 +114,7 @@ ul {
 .right {
   width: 55%;
   height: 95%;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url(./mine.jpg);
   background-size: cover;
   background-position: center;
@@ -158,7 +158,7 @@ ul {
 .info {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url(./info.jpg);
   background-size: cover;
   background-position: center;
@@ -236,7 +236,7 @@ ul {
 .action {
   width: 100%;
   height: 60vh;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url(./action.jpeg);
   background-size: cover;
   background-position: center;
