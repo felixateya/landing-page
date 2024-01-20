@@ -1,0 +1,247 @@
+@media (max-width: 1024px) {
+  .top {
+    height: max-content;
+    padding: 20px;
+  }
+  .top header {
+    margin-left: 10px;
+    margin-top: 1px;
+  }
+
+  ul {
+    display: none;
+    transition: all 0.9s ease;
+  }
+
+  .top header label {
+    display: block;
+    color: #fff;
+  }
+
+  #check:checked ~ ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: inset 2px 2px 6px #3882f6, inset 2px 2px 6px #3882f6;
+    z-index: -1;
+    width: 200px;
+    top: 20px;
+    right: 10px;
+    gap: 15px;
+    margin-top: 50px;
+    background-color: #1f2937d8;
+    height: 200px;
+    padding: 10px;
+    animation: slide 0.3s linear;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateY(-60px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .left {
+    width: 56%;
+  }
+  .right {
+    width: 45%;
+    height: 350px;
+  }
+
+  .left h1 {
+    width: 75%;
+    font-size: 40px;
+  }
+
+  .info {
+    height: max-content;
+    padding: 10px;
+  }
+
+  .box {
+    height: max-content;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .box > div {
+    width: 42.5%;
+    height: 300px;
+  }
+
+  .quote {
+    height: max-content;
+    padding: 20px 0;
+  }
+
+  .quote blockquote {
+    width: 90%;
+    font-size: 24px;
+  }
+  .quote h3 {
+    margin-left: 60%;
+    font-style: italic;
+    font-size: 22px;
+  }
+
+  .action{
+    height: max-content;
+    padding: 20px;
+  }
+
+  .center{
+    width: 90%;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    align-items: start;
+    height: max-content;
+    padding: 10px 40px;
+  }
+  
+  footer{
+    font-size: 19px;
+    height: max-content;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .top {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .top header {
+    width: 90%;
+    margin-top: 0;
+    border-radius: 0;
+  }
+  .home {
+    flex-direction: column-reverse;
+    margin-left: 10px;
+    width: 97%;
+    margin-top: 100px;
+    /* border: 1px solid red; */
+  }
+
+  .left {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+
+  .left h1 {
+    width: 99%;
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .left p {
+    width: 98%;
+  }
+
+  .right {
+    margin-top: 20px;
+    width: 85%;
+    height: 280px;
+  }
+  .info h2 {
+    font-size: 26px;
+  }
+  .box {
+    justify-content: start;
+    align-items: start;
+  }
+  .box > div {
+    width: 98%;
+    height: 300px;
+  }
+
+  .quote blockquote {
+    width: 90%;
+    font-size: 18px;
+  }
+  
+
+  .quote h3 {
+    margin-top: 10px;
+    margin-left: 40%;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+.center{
+    width: 97%;
+}
+
+  .act h2{
+    font-size: 24px;
+  }
+  .act p{
+    font-size: 17px;
+  }
+  .center button{
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 320px) {
+  .top header {
+    margin-left: 2px;
+    width: 94%;
+  }
+  .info h2 {
+    font-size: 20px;
+  }
+  .quote blockquote {
+    width: 90%;
+    font-size: 16px;
+  }
+  
+
+  .quote h3 {
+    font-size: 17px;
+  }
+  .action{
+    padding: 5px 10px;
+
+  }
+  .act h2{
+    font-size: 20px;
+  }
+  .act p{
+    font-size: 15px;
+  }
+}
+
+@media(max-width:280px){
+    .quote blockquote {
+        width: 95%;
+        font-size: 15px;
+      }
+      
+    .center{
+        width: 99%;
+    }
+      .quote h3 {
+        font-size: 14px;
+      }
+      .act h2{
+        font-size: 16px;
+      }
+      .act p{
+        font-size: 12px;
+      }
+      .center button{
+        margin-left: 35%;
+      }
+      footer{
+        font-size: 17px ;
+      }
+}

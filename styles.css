@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.6s ease;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.top {
+  width: 100%;
+  height: 80vh;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.top header {
+  position: fixed;
+  z-index: 100;
+  background-color: #1f2937d8;
+  width: 95%;
+  color: #fff;
+  display: flex;
+  margin-left: 2%;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding: 25px;
+  box-shadow: inset 2px 2px 6px #3882f6, inset 2px 2px 6px #3882f6;
+  border-radius: 14px;
+}
+
+.top header h3 {
+  font-size: 24px;
+  margin-left: 13%;
+}
+#check {
+  display: none;
+}
+.top header label {
+  display: none;
+}
+ul {
+  width: 30%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.home {
+  width: 80%;
+  margin-left: 15%;
+  margin-top: 130px;
+  /* border: 1px solid red; */
+  height: 60%;
+  display: flex;
+}
+
+.left {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+.left h1 {
+  width: 56%;
+  line-height: 60px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.left p {
+  width: 88%;
+  line-height: 30px;
+  font-size: 20px;
+  color: #e5e7eb;
+}
+
+.left button {
+  background-color: #3882f6;
+  width: 150px;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  border: 4px solid #3882f6;
+}
+
+.left button:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.right {
+  width: 51%;
+  height: 95%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(./mine.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.opc {
+  background-color: #1f29377c;
+  width: 100%;
+  height: 0;
+  display: none;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 14px;
+  transition: ease-in-out;
+}
+
+.right:hover .opc {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: myheight 0.6s linear;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@keyframes myheight {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 50%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+.info {
+  width: 100%;
+  height: 80vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h2 {
+  font-size: 40px;
+}
+.box {
+  display: flex;
+  width: 85%;
+  height: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box > div {
+  width: 21.25%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box > div img {
+  width: 70%;
+  border: 5px solid #3882f6;
+  border-radius: 12px;
+  height: 70%;
+  object-position: top;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.box > div img:hover {
+  border: 5px solid orangered;
+}
+
+.box > div p {
+  text-align: center;
+  color: #999;
+  font-size: 20px;
+  width: 70%;
+  margin-top: 10px;
+}
+.quote {
+  width: 100%;
+  height: 70vh;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote blockquote {
+  width: 60%;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote h3 {
+  font-size: 32px;
+  margin-left: 25%;
+}
+
+.action {
+  width: 100%;
+  height: 60vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  width: 80%;
+  height: 40%;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #3882f6;
+  border-radius: 14px;
+}
+
+.act h2 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.act p {
+  color: #e5e7eb;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.center button {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  padding: 12px;
+  width: 150px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+footer {
+  width: 100%;
+  height: 15vh;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+}
