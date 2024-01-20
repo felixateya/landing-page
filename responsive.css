@@ -16,6 +16,7 @@
   .top header label {
     display: block;
     color: #fff;
+    font-size: 26px;
   }
 
   #check:checked ~ ul {
