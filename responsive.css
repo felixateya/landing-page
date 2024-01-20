@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1050px) {
   .top {
     height: max-content;
     padding: 20px;
@@ -162,16 +162,20 @@
     width: 98%;
     height: 300px;
   }
-
+.quote{
+    justify-content: start;
+    align-items: start;
+}
   .quote blockquote {
     width: 90%;
     font-size: 18px;
+    margin-left: 4px;
   }
   
 
   .quote h3 {
     margin-top: 10px;
-    margin-left: 40%;
+    margin-left: 25%;
     font-style: italic;
     font-size: 20px;
   }
