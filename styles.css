@@ -17,6 +17,10 @@ a {
   text-decoration: none;
   color: #fff;
 }
+a:hover{
+    color: #3167be;
+    font-weight: 600;
+}
 
 .top {
   width: 100%;
@@ -31,15 +35,15 @@ a {
   position: fixed;
   z-index: 100;
   background-color: #1f2937d8;
-  width: 95%;
+  width: 100%;
   color: #fff;
   display: flex;
-  margin-left: 2%;
-  margin-top: 20px;
+  /* margin-left: 2%; */
+  /* margin-top: 20px; */
   justify-content: space-between;
   padding: 25px;
-  box-shadow: inset 2px 2px 6px #3882f6, inset 2px 2px 6px #3882f6;
-  border-radius: 14px;
+  box-shadow:  2px 2px 6px #3882f6,  2px 2px 6px #3882f6;
+  /* border-radius: 14px; */
 }
 
 .top header h3 {
@@ -49,7 +53,7 @@ a {
 #check {
   display: none;
 }
-.top header label {
+.label, .the-label {
   display: none;
 }
 ul {
@@ -59,6 +63,7 @@ ul {
   justify-content: space-evenly;
   font-size: 18px;
   color: #e5e7eb;
+  font-weight: 600;
 }
 
 .home {
@@ -121,6 +126,11 @@ ul {
   margin-left: 20px;
   border-radius: 14px;
   cursor: pointer;
+  border: 6px solid #3882f6;
+}
+
+.right:hover{
+    border: 6px solid #fff;
 }
 
 .opc {
@@ -199,7 +209,7 @@ ul {
   transition: all 0.3s ease;
 }
 .box > div img:hover {
-  border: 5px solid orangered;
+  border: 5px solid #fff;
 }
 
 .box > div p {
